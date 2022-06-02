@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle Text renders without crashing - with custom title 1`] = `
+<img
+  alt="A preview of the product"
+  className="productImg undefined"
+/>
+`;
+
+exports[`ProductTitle Text with product name 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="A preview of the product"
+    className="productImg undefined"
+    src="./coffee-mug2.png"
+  />
+</div>
+`;
