@@ -17,7 +17,7 @@ const App = () => {
           maxCount: 10,
         }}
       >
-        { () => (
+        { ({}) => (
           <>
             <ProductCard.Image />
             <ProductCard.Title />

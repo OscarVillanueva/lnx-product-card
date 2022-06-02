@@ -23,10 +23,9 @@ export const useProduct = ({
   product, value = 0, initialValues, onChange 
 }: UseProductProps) : ToolBox => {
   
+  // States para controlar el hook
   const [counter, setCounter] = useState<number>(0)
   const [renders, setRenders] = useState<number>(0)
-
-  // ref no re renderiza cuando cambia de valor
 
   useEffect(() => {
 
